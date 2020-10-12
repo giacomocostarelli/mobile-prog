@@ -12,11 +12,12 @@ export default function App() {
 		console.log(enteredGoal);
 	};
 
+	// GPG Key
 	return (
 		<View style={styles.screen}>
 			<View style={styles.inputContainer}>
 				<TextInput
-					placeholder="Course Goals"
+					placeholder="Course Goals "
 					style={styles.input}
 					onChangeText={goalInputHandler}
 					value={enteredGoal}
