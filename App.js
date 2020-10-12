@@ -16,7 +16,7 @@ export default function App() {
 		<View style={styles.screen}>
 			<View style={styles.inputContainer}>
 				<TextInput
-					placeholder="I miei obbiettivi"
+					placeholder="Course Goals"
 					style={styles.input}
 					onChangeText={goalInputHandler}
 					value={enteredGoal}
