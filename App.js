@@ -12,7 +12,7 @@ export default function App() {
 		console.log(enteredGoal);
 	};
 
-	// GPG Key
+	// GPG Key Verified
 	return (
 		<View style={styles.screen}>
 			<View style={styles.inputContainer}>
